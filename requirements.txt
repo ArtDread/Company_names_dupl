@@ -1,0 +1,14 @@
+matplotlib==3.6.0
+numpy==1.23.3
+pandas==1.5.0
+torch==1.12.1
+torchvision==0.13.1
+tqdm==4.64.1
+seaborn==0.12.0
+ipykernel==6.16.1
+plotly==5.11.0
+tokenizers==0.13.1
+transformers==4.23.1
+scikit-learn==1.1.2
+wordcloud=1.8.2.2
+translators==5.4.8
