@@ -1,0 +1,6 @@
+mkdir ./weights/
+mkdir ./weights/LSTM/
+mkdir ./weights/BERT/
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1e7ipRT3v6or4wWHl6twzcP8c7CDtI6CY' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1e7ipRT3v6or4wWHl6twzcP8c7CDtI6CY" -O ./weights/LSTM/lstm_4_epochs && rm -rf /tmp/cookies.txt
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=11OzQrngR6cnfgx5ReE_bvGmE2Cfx96mR' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=11OzQrngR6cnfgx5ReE_bvGmE2Cfx96mR" -O ./weights/LSTM/lstm_15_epochs && rm -rf /tmp/cookies.txt
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=15cbsrzkh4imqzvfp7a19BMSnXZkuYZVr' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=15cbsrzkh4imqzvfp7a19BMSnXZkuYZVr" -O ./weights/BERT/saved_model && rm -rf /tmp/cookies.txt
