@@ -1,0 +1,6 @@
+# Local files
+weights/LSTM
+weights/BERT
+
+# Jupyter Notebook
+.ipynb_checkpoints
