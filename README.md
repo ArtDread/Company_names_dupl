@@ -14,8 +14,8 @@ Detailed working directory structure presentation.
 
 ```text
 .
-├── data                    <- Files including data and images 
-│   ├── README_files        <- Images for README design
+├── data                    <- The files including data and images 
+│   ├── README_files        <- The images for README design
 │   └── train.csv           <- The project data
 ├── notebooks               <- The Jupyter notebooks' folder containing training and analysis
 │   ├── BERT
@@ -23,12 +23,11 @@ Detailed working directory structure presentation.
 │   ├── LSTM              
 │   │   ├── board_loss      <- The Train/Test loss evolution traking during the training
 │   │   └── lstm.ipynb      <- The Jupyter notebook containing the LSTM model training  
-├── weights                 <- Weights of trained models
+├── weights                 <- The weights of trained models
 ├── .gitignore              <- The Gitignore configuration
+├── LICENSE                 <- The MIT License file
+├── README.md               <- The top-level README file
 ├── get_weights.sh          <- The script for downloading weights
-├── requirements.txt        <- The requirements file for reproducing 
-├── README.md               <- The requirements file for reproducing the experiment
-├── LICENSE                 <- The MIT License file 
 └── requirements.txt        <- The requirements file for reproducing the experiment
 
 ```
